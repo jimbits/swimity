@@ -1,0 +1,190 @@
+{
+	"training_plan": {
+		"title": "1000m in 30 Minutes: The 12-Week Refactor",
+		"phases": {
+			"phase-1": {
+				"phase_name": "Phase 1: Efficiency & Drag Reduction",
+				"weeks_in_phase": 4,
+				"weeks": {
+					"week-1": {
+						"focus": "Body Position & Neutral Head",
+						"weekly_goals": { "time": "N/A", "distance": "600m", "endurance": "Low" },
+						"recommended_types": ["Catch-Up Efficiency", "Kick Engine Builder"],
+						"daily_workouts": [
+							{ "day": 1, "routine": "4 x 50m Catch-up drill + 4 x 50m easy swim. Rest 45s." },
+							{ "day": 2, "routine": "6 x 50m Kick with board. Focus on keeping hips high." },
+							{ "day": 3, "routine": "200m continuous swim. Focus only on looking at the floor." },
+							{ "day": 4, "routine": "8 x 25m Breathing every 3 strokes. Rest 30s." },
+							{ "day": 5, "routine": "4 x 100m with pull buoy. Focus on long, slow strokes." },
+							{ "day": 6, "routine": "10 x 25m Finger-tip drag drill. Focus on high elbow." },
+							{ "day": 7, "routine": "Active Recovery: 300m very slow, perfect form only." }
+						]
+					},
+					"week-2": {
+						"focus": "Streamline & Gliding",
+						"weekly_goals": { "time": "N/A", "distance": "700m", "endurance": "Low" },
+						"daily_workouts": [
+							{ "day": 1, "routine": "8 x 25m Streamline push-offs + 50m swim." },
+							{ "day": 2, "routine": "4 x 100m (50m Drill / 50m Swim)." },
+							{ "day": 3, "routine": "300m Steady. Count strokes per lap." },
+							{ "day": 4, "routine": "10 x 25m Kick (no board). Rest 20s." },
+							{ "day": 5, "routine": "4 x 75m with pull buoy. Focus on reach." },
+							{ "day": 6, "routine": "6 x 50m Catch-up drill. Rest 30s." },
+							{ "day": 7, "routine": "400m easy continuous swim." }
+						]
+					},
+					"week-3": {
+						"focus": "Bilateral Breathing",
+						"weekly_goals": { "time": "N/A", "distance": "800m", "endurance": "Medium" },
+						"daily_workouts": [
+							{ "day": 1, "routine": "12 x 25m alternating breathing side." },
+							{ "day": 2, "routine": "4 x 100m breathing every 3/5/3/5 per lap." },
+							{ "day": 3, "routine": "400m Continuous. Breathe every 3 strokes." },
+							{ "day": 4, "routine": "8 x 50m with fins. Focus on rotation." },
+							{ "day": 5, "routine": "200m Pull / 200m Kick / 200m Swim." },
+							{ "day": 6, "routine": "10 x 25m Sprint kick. Rest 30s." },
+							{ "day": 7, "routine": "500m slow steady state swim." }
+						]
+					},
+					"week-4": {
+						"focus": "Rotation & Reach",
+						"weekly_goals": {
+							"time": "Check 400m pace",
+							"distance": "800m",
+							"endurance": "Medium"
+						},
+						"daily_workouts": [
+							{ "day": 1, "routine": "8 x 50m Side-lying kick (rotation focus)." },
+							{ "day": 2, "routine": "4 x 150m. Rest 45s. Focus on full extension." },
+							{ "day": 3, "routine": "600m Continuous. Check time at 300m." },
+							{ "day": 4, "routine": "10 x 50m alternating Drill/Swim." },
+							{ "day": 5, "routine": "4 x 100m Pull buoy. Consistent stroke rate." },
+							{ "day": 6, "routine": "12 x 25m building speed within each lap." },
+							{ "day": 7, "routine": "Benchmark: 400m for time." }
+						]
+					}
+				}
+			},
+			"phase-2": {
+				"phase_name": "Phase 2: Interval & Pace Threshold",
+				"weeks_in_phase": 4,
+				"weeks": {
+					"week-5": {
+						"focus": "Holding the 1:30/50m Pace",
+						"weekly_goals": { "time": "1:30 per 50m", "distance": "900m", "endurance": "Medium" },
+						"daily_workouts": [
+							{ "day": 1, "routine": "10 x 50m on 2:00. Target 1:30 swim time." },
+							{ "day": 2, "routine": "4 x 100m Descending. Rest 1 min." },
+							{ "day": 3, "routine": "600m Fartlek: 50m Fast / 50m Easy." },
+							{ "day": 4, "routine": "12 x 25m Sprints. Target 22s. Rest 40s." },
+							{ "day": 5, "routine": "2 x 300m Steady (9:00 each). Rest 1:30." },
+							{ "day": 6, "routine": "8 x 50m Kick/Swim alternating by lap." },
+							{ "day": 7, "routine": "Time Trial: 500m for time. Target 15:00." }
+						]
+					},
+					"week-6": {
+						"focus": "Reducing Rest Intervals",
+						"weekly_goals": { "time": "3:00/100m", "distance": "1000m", "endurance": "Medium" },
+						"daily_workouts": [
+							{ "day": 1, "routine": "6 x 100m on 3:45 (3:00 swim + 45s rest)." },
+							{ "day": 2, "routine": "12 x 50m on 1:55 (1:30 swim + 25s rest)." },
+							{ "day": 3, "routine": "800m total: 4 x 200m. Rest 40s." },
+							{ "day": 4, "routine": "16 x 25m. Target 20s. Rest 30s." },
+							{ "day": 5, "routine": "400m Pull / 400m Swim." },
+							{ "day": 6, "routine": "10 x 50m Drill focus (rotation)." },
+							{ "day": 7, "routine": "600m continuous steady swim." }
+						]
+					},
+					"week-7": {
+						"focus": "Speed Endurance",
+						"weekly_goals": { "time": "2:55/100m", "distance": "1000m", "endurance": "High" },
+						"daily_workouts": [
+							{ "day": 1, "routine": "8 x 100m. Try to hold 2:55. Rest 30s." },
+							{ "day": 2, "routine": "20 x 25m. Sprint every 4th lap. Rest 20s." },
+							{ "day": 3, "routine": "2 x 400m. Target 12:00 per set. Rest 1 min." },
+							{ "day": 4, "routine": "10 x 50m on 1:50 interval." },
+							{ "day": 5, "routine": "800m Fartlek: 100m Fast / 100m Easy." },
+							{ "day": 6, "routine": "6 x 100m Pull buoy. Consistent pace." },
+							{ "day": 7, "routine": "Time Trial: 800m. Record splits." }
+						]
+					},
+					"week-8": {
+						"focus": "Pace Consistency",
+						"weekly_goals": { "time": "3:00/100m", "distance": "1100m", "endurance": "High" },
+						"daily_workouts": [
+							{ "day": 1, "routine": "10 x 100m on 3:30 (Goal pace + 30s rest)." },
+							{ "day": 2, "routine": "5 x 200m. Rest 30s. Hold 6:00 per set." },
+							{ "day": 3, "routine": "1000m total: 500m / 300m / 200m. Rest 20s." },
+							{ "day": 4, "routine": "12 x 50m. Breathe every 5 strokes. Rest 20s." },
+							{ "day": 5, "routine": "8 x 100m with fins. Focus on 1:25 pace." },
+							{ "day": 6, "routine": "400m Kick / 400m Pull / 200m Swim." },
+							{ "day": 7, "routine": "Benchmark: 1000m straight (Slow)." }
+						]
+					}
+				}
+			},
+			"phase-3": {
+				"phase_name": "Phase 3: Stamina & Goal Integration",
+				"weeks_in_phase": 4,
+				"weeks": {
+					"week-9": {
+						"focus": "Connecting the Links",
+						"weekly_goals": {
+							"time": "3:00/100m sustained",
+							"distance": "1200m",
+							"endurance": "High"
+						},
+						"daily_workouts": [
+							{ "day": 1, "routine": "5 x 200m on 6:30. Target 6:00 swim per set." },
+							{ "day": 2, "routine": "2 x 500m. Rest 2 mins. Goal: 15:00 per set." },
+							{ "day": 3, "routine": "1000m Straight: 400s / 200p / 400s." },
+							{ "day": 4, "routine": "20 x 50m on 1:45. (The 'Broken' 1000m)." },
+							{ "day": 5, "routine": "800m Continuous. Focus on consistent 3:00 splits." },
+							{ "day": 6, "routine": "4 x 250m. Rest 15s. Final push focus." },
+							{ "day": 7, "routine": "Benchmark: 1000m for time. Target < 32:00." }
+						]
+					},
+					"week-10": {
+						"focus": "Volume Stamina",
+						"weekly_goals": { "time": "3:00/100m", "distance": "1300m", "endurance": "Very High" },
+						"daily_workouts": [
+							{ "day": 1, "routine": "12 x 100m on 3:20 interval." },
+							{ "day": 2, "routine": "3 x 400m. Rest 30s. Target 12:00." },
+							{ "day": 3, "routine": "1200m continuous. Use pull buoy for middle 400m." },
+							{ "day": 4, "routine": "10 x 75m. Rest 15s. Hold goal pace." },
+							{ "day": 5, "routine": "500m Swim / 300m Kick / 500m Swim." },
+							{ "day": 6, "routine": "24 x 25m. Sprint every 3rd lap. Rest 15s." },
+							{ "day": 7, "routine": "1000m continuous. Focus on breathing rhythm." }
+						]
+					},
+					"week-11": {
+						"focus": "Taper & Sharpen",
+						"weekly_goals": { "time": "Goal Pace", "distance": "1000m", "endurance": "High" },
+						"daily_workouts": [
+							{ "day": 1, "routine": "8 x 100m on 3:10 interval." },
+							{ "day": 2, "routine": "4 x 250m. Rest 10s. Goal pace." },
+							{ "day": 3, "routine": "600m high intensity. Check splits every 100m." },
+							{ "day": 4, "routine": "10 x 50m Sprints. Rest 45s. Max speed." },
+							{ "day": 5, "routine": "400m Easy / 200m Fast / 400m Easy." },
+							{ "day": 6, "routine": "Active Recovery: 500m drill focus." },
+							{ "day": 7, "routine": "Final Pace Check: 5 x 100m on 3:05." }
+						]
+					},
+					"week-12": {
+						"focus": "The 30-Minute Attempt",
+						"weekly_goals": { "time": "30:00 Total", "distance": "1000m", "endurance": "Peak" },
+						"daily_workouts": [
+							{ "day": 1, "routine": "1000m total. 10 x 100m. Rest 15s." },
+							{ "day": 2, "routine": "500m Continuous. Focus on 15:00 split." },
+							{ "day": 3, "routine": "Rest Day." },
+							{ "day": 4, "routine": "400m Warm up / 4 x 25m Sprints / 200m Easy." },
+							{ "day": 5, "routine": "Rest Day." },
+							{ "day": 6, "routine": "The Goal Attempt: 1000m Continuous for time." },
+							{ "day": 7, "routine": "Celebratory 500m easy swim." }
+						]
+					}
+				}
+			}
+		}
+	}
+}
