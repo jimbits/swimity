@@ -1,17 +1,29 @@
 <script lang="ts">
-  import { goto } from '$app/navigation';
-  import { auth } from '$lib/firebase/client';
-  import { signInWithEmailAndPassword } from 'firebase/auth';
+	import { goto } from '$app/navigation';
+	import { auth } from '$lib/firebase/client';
+	import { signInWithEmailAndPassword } from 'firebase/auth';
   // import { auth } from '$lib/firebase/client';
   // import { signInWithEmailAndPassword } from 'firebase/auth';
 
   let loggedIn = $state(false)
-  async function testLogin() {
-
-    loggedIn = !loggedIn;
+ async function testLogin() {
     try {
-      await signInWithEmailAndPassword(auth, 'jim@home.com', '123456');
-      goto('/test');
+      const userCredential = await signInWithEmailAndPassword(auth, 'jim@home.com', '123456');
+
+      // 1. Get the ID token from the logged-in user
+      const idToken = await userCredential.user.getIdToken();
+      console.log(idToken)
+      // 2. POST it to our server endpoint to set a secure cookie
+      const res = await fetch('/api/auth/session', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ idToken })
+      });
+
+      if (res.ok) {
+        loggedIn = true;
+       goto('/test');
+      }
     } catch (e) {
       console.error('Login failed:', e);
     }

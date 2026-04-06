@@ -1,0 +1,56 @@
+{
+	"users": {
+		"ruKTHY3vEOaZdFGyIddgK7JBW9t1": {
+			"profile": {
+				"name": "Jim Home",
+				"email": "jim@home.com"
+			},
+			"training_plan": {
+				"plan_name": "12 Week Strength Build",
+				"start_date": "2026-04-01",
+				"weeks_completed": 1,
+				"workouts": {
+					"workout_001": {
+						"day": "Monday",
+						"type": "Strength",
+						"completed": true,
+						"exercises": {
+							"ex_001": { "name": "Squat", "sets": 4, "reps": 6, "weight_kg": 100 },
+							"ex_002": { "name": "Bench Press", "sets": 4, "reps": 6, "weight_kg": 80 }
+						}
+					},
+					"workout_002": {
+						"day": "Wednesday",
+						"type": "Cardio",
+						"completed": false,
+						"exercises": {
+							"ex_001": { "name": "Row", "sets": 3, "reps": 10, "weight_kg": 0 }
+						}
+					}
+				}
+			}
+		},
+		"Y5okO6DlSTb4eqbSvZQBXJo6ZLZ2": {
+			"profile": {
+				"name": "Test User",
+				"email": "test@test.com"
+			},
+			"training_plan": {
+				"plan_name": "8 Week Fat Loss",
+				"start_date": "2026-03-15",
+				"weeks_completed": 3,
+				"workouts": {
+					"workout_001": {
+						"day": "Tuesday",
+						"type": "HIIT",
+						"completed": true,
+						"exercises": {
+							"ex_001": { "name": "Burpees", "sets": 5, "reps": 20, "weight_kg": 0 },
+							"ex_002": { "name": "Jump Squat", "sets": 5, "reps": 15, "weight_kg": 0 }
+						}
+					}
+				}
+			}
+		}
+	}
+}
