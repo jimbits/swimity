@@ -5,6 +5,8 @@ node_modules
 # Local Project Files
 /.project
 /keys
+/learning
+
 
 # Output
 .output

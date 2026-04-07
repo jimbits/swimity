@@ -1,6 +1,6 @@
 <!-- src/routes/test/+page.svelte -->
 <script lang="ts">
-  import type { PageData } from './$types';
+	import type { PageData } from './$types';
 
   let { data }: { data: PageData } = $props();
 
@@ -8,10 +8,15 @@
   const plan = userData?.training_plan;
   const profile = userData?.profile;
   const workouts = plan?.workouts ? Object.values(plan.workouts) : [];
+
+
+
 </script>
 
-<div class="page">
 
+
+
+<div class="page">
   <section class="profile">
     <h1>{profile?.name}</h1>
     <p>{user.email}</p>
@@ -57,6 +62,6 @@
     border-radius: 6px;
   }
   .workout-card.done { border-color: limegreen; }
-  ul { margin-top: 0.5rem; padding-left: 1.2rem; }
-  li { margin-top: 0.25rem; }
+
+
 </style>
